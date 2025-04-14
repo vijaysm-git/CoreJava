@@ -2,7 +2,7 @@ package BinarySearch;
 
 public class OrderAgnosticBS {
     public static void main(String[] args) {
-        int []arr = {-18,-15,-1,0,1,2,3,5,6,7};
+        int []arr = {-18,-15,-1,0,1,2,3,5,6,9,10,16};
         int target= 7 ;
         int ans = orderAgnostic(arr,target);
         System.out.println(ans);
@@ -33,7 +33,7 @@ public class OrderAgnosticBS {
                         start = mid + 1;
                     }
                 }
-        }return -1;
+        }return start;
 
     }
 }
