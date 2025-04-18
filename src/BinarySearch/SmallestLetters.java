@@ -9,7 +9,7 @@ public class SmallestLetters {
         char result = obj.nextGreatestLetter(letters,target);
 
 
-        System.out.println(result);
+        System.out.println(result );
     }
 
     public char nextGreatestLetter(char[] letters, char target) {
