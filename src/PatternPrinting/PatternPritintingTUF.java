@@ -150,7 +150,7 @@ public class PatternPritintingTUF {
                 else start =0;
             for (int col = 0; col < row; col++) {
                 System.out.print(start + " ");
-                start=1-start;
+                start= 1-start;
 
             }
             System.out.println();

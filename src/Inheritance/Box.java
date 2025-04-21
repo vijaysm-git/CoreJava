@@ -28,10 +28,6 @@ public class Box {
         System.out.println("Box is running.....");
     }
 
-
-
-
-
     @Override
     public int hashCode() {
         return Objects.hash(l, h, w);
